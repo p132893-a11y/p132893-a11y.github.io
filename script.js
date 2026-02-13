@@ -25,28 +25,28 @@ document.addEventListener("DOMContentLoaded", function () {
 
     let textIndex = 0;
 
-    // NO BUTTON LOGIC
+    
     noBtn.addEventListener("click", function () {
 
         if (clickCount >= maxClicks) return;
 
         clickCount++;
 
-        // YES grows
+        
         scale += 2.3;
         yesBtn.style.transform = `scale(${scale})`;
 
-        // NO slides right
+        
         moveRight += 70;
         noBtn.style.left = moveRight + "px";
 
-        // Change NO text
+        
         if (textIndex < noTexts.length - 1) {
             noBtn.textContent = noTexts[textIndex];
             textIndex++;
         }
 
-        // Dramatic fade out
+        
         if (clickCount === maxClicks) {
 
             setTimeout(() => {
@@ -61,7 +61,7 @@ document.addEventListener("DOMContentLoaded", function () {
         }
     });
 
-    // YES BUTTON LOGIC
+    
     yesBtn.addEventListener("click", function () {
 
         container.innerHTML = `
@@ -83,3 +83,4 @@ document.addEventListener("DOMContentLoaded", function () {
     });
 
 });
+
