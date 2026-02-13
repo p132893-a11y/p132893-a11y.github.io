@@ -128,41 +128,41 @@ body {
     font-family: Arial, sans-serif;
 }
 
-/* BIGGER CONTAINER */
+
 .container {
     background-color: #f3f3f3;
     padding: 80px;
     border-radius: 35px;
     text-align: center;
-    width: 750px;                 /* bigger width */
+    width: 750px;                 
     box-shadow: 0 25px 50px rgba(0, 0, 0, 0.2);
     position: relative;
 }
 
-/* BIGGER CAT GIF */
+
 .cat {
-    width: 250px;                 /* was 150px */
+    width: 250px;                 
     margin-bottom: 25px;
 }
 
-/* BIGGER TEXT */
+
 h2 {
     color: #e2557b;
     margin-bottom: 40px;
-    font-size: 36px;              /* was 18px */
+    font-size: 36px;              
     font-family: monospace;
 }
 
-/* BUTTON CONTAINER */
+
 .buttons {
     display: flex;
     justify-content: center;
-    gap: 40px;                    /* more spacing */
+    gap: 40px;                   
 }
 
-/* BIGGER BUTTONS */
+
 .btn {
-    padding: 20px 50px;           /* bigger padding */
+    padding: 20px 50px;           
     border: none;
     border-radius: 40px;
     background-color: #ff4f6d;
@@ -171,24 +171,25 @@ h2 {
     cursor: pointer;
     transition: 0.3s ease;
     box-shadow: 0 10px 25px rgba(255, 79, 109, 0.4);
-    font-size: 22px;              /* bigger text */
+    font-size: 22px;              
 }
 
-/* Hover */
+
 .btn:hover {
     transform: scale(1.15);
 }
 
-/* NO button special */
+
 .no {
     background-color: #ff6b81;
     position: relative;
     transition: all 0.5s ease;
 }
 
-/* Success / Next page GIF */
+
 .success-gif {
-    width: 280px;                 /* bigger */
+    width: 280px;                
     display: block;
     margin: 0 auto 30px auto;
 }
+
